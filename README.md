@@ -1,0 +1,13 @@
+### Stratego on CLI
+
+## About
+...
+
+## Gameplay
+...
+
+## History
+...
+
+## Rules
+...
