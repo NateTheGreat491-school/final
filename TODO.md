@@ -48,8 +48,6 @@ class Player {
 ```
 
 ## Pieces
-* -2 | Flag
-* -1 | Bomb
 *  0 | EMPTY
 *  1 | Spy
 *  2 | Scout
@@ -61,6 +59,8 @@ class Player {
 *  8 | Colonel
 *  9 | General
 * 10 | Marshall
+* 11 | Bomb
+* 12 | Flag
 
 ## To-do list
 
