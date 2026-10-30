@@ -11,6 +11,42 @@
 8. If True: checkForWin()
 9. Gui renders the gamestate
 
+## GUI CLASS
+
+__Example__:
+```
+class Gui {
+    
+    public int[] renderBoard(int[] gameState) {}
+    public int[] selectConfig() {}                  // when the user goes to select a configuration
+    public int[] playMove(int[] move) {}
+
+    // renderBoard runs the game board
+    // playMove calls the [Move] class to perform the move
+
+}
+```
+
+## MOVE CLASS
+
+## STRATEGO CLASS
+
+## PLAYER CLASS
+1. Handles player piece configurations (saving and loading from a file)
+2. Handles player stats (wins, losses, draws, games played, win rate %)
+3. Handles user logon info (username, password, etc)
+
+```
+
+class Player {
+    
+    public int[] getConfig(String name) {}
+    public int[] getRandomConfig() {}
+
+}
+
+```
+
 ## Pieces
 * -2 | Flag
 * -1 | Bomb
